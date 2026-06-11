@@ -4,7 +4,7 @@ tools.py — LangChain tools for information extraction from customer interactio
 
 from langchain.tools import tool
 
-
+# Keyword-based matching for speed
 @tool
 def extract_customer_intent(text: str) -> str:
     """
