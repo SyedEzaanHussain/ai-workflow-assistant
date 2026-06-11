@@ -55,7 +55,7 @@ def run(customer_message: str):
 
 if __name__ == "__main__":
     # ── Demo interactions — swap these out to test different flows ──
-
+    # Change demo_1 to demo_2 or demo_3 to test other flows
     # Case 1: Billing issue — moderate urgency, neutral tone
     demo_1 = (
         "Hi, I was charged twice for my subscription this month. "
