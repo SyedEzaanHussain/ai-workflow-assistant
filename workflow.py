@@ -95,6 +95,7 @@ def build_workflow() -> StateGraph:
     # Entry point
     graph.set_entry_point("extract_info")
 
+    # Entry point
     # Conditional routing after extraction
     graph.add_conditional_edges(
         "extract_info",
